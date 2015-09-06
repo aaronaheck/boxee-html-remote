@@ -1,0 +1,6 @@
+You will need root access to your Boxee Box, which you can get through boxeed.in
+Using SSH access, copy the entire remote folder to /data
+chmod +x remote/www/index.cgi
+Copy 95wwwremote.sh to /data/hack/init.d
+chmod +x 95wwwremote.sh
+

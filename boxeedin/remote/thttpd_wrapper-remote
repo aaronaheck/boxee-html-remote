@@ -1,0 +1,6 @@
+#!/bin/sh
+
+while true ; do
+    /opt/local/bin/thttpd -D -C /data/remote/thttpd-remote.conf
+    sleep 10
+done
